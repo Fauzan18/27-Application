@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,407 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hair_Model" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="crop" translatesAutoresizingMaskIntoConstraints="NO" id="rIg-G3-xlU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dth-HW-Kjb">
+                                <rect key="frame" x="164" y="566" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Click">
+                                    <color key="titleColor" red="1" green="0.99831036539999995" blue="0.99555657360000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CcZ-La-pGf" kind="show" id="yrF-Wt-f7K"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3R-KT-8ei">
+                                <rect key="frame" x="58" y="20" width="259" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Man ">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.99831036539999995" blue="0.99555657360000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Hair Model">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.99831036539999995" blue="0.99555657360000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="36" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-250.40000000000001" y="139.880059970015"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Zl6-59-zB5">
+            <objects>
+                <viewController id="CcZ-La-pGf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Osb-0H-Qo6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="model-rambut-pria-side-part" translatesAutoresizingMaskIntoConstraints="NO" id="iCh-mr-SHW">
+                                <rect key="frame" x="0.0" y="57" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="model-rambut-pria-man-bun" translatesAutoresizingMaskIntoConstraints="NO" id="qxP-cK-yJz">
+                                <rect key="frame" x="0.0" y="361" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Lf-BN-mZZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.94950085880000001" green="0.92982012030000005" blue="0.90454488990000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Page 1" id="hsP-QA-LdI">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="W4P-cf-I9V">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="H4l-dL-ZCv"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="K7B-FJ-tif">
+                                            <connections>
+                                                <segue destination="DpA-sS-B39" kind="show" id="4gd-Gc-VyC"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="00c-QC-uYu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TaU-VN-kab" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="624.79999999999995" y="139.880059970015"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Spw-Nm-bPy">
+            <objects>
+                <viewController id="DpA-sS-B39" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5mE-Mb-SJC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="model-rambut-pria-pompadour" translatesAutoresizingMaskIntoConstraints="NO" id="pKc-17-NW3">
+                                <rect key="frame" x="0.0" y="57" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="model-rambut-pria-short-back-sides" translatesAutoresizingMaskIntoConstraints="NO" id="fRg-XT-7Qn">
+                                <rect key="frame" x="0.0" y="361" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjH-hi-KyI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.94950085878372192" green="0.92982012033462524" blue="0.9045448899269104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.017223931349999999" green="0.017223931349999999" blue="0.017223931349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Page 2" id="pgv-z2-k8F">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="9GC-6z-whf">
+                                            <connections>
+                                                <segue destination="CcZ-La-pGf" kind="show" id="C1g-0Q-Bnn"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="ELH-JY-qE2">
+                                            <connections>
+                                                <segue destination="BeC-Pt-Rvz" kind="show" id="rwe-ul-sln"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="4da-Sy-CRN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Yx-b0-c5Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1396" y="133"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zxC-fa-Uvt">
+            <objects>
+                <viewController id="BeC-Pt-Rvz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pxp-Ar-gmC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="model-rambut-pria-fade" translatesAutoresizingMaskIntoConstraints="NO" id="LHz-4S-8DV">
+                                <rect key="frame" x="0.0" y="57" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="model-rambut-pria-top-knot" translatesAutoresizingMaskIntoConstraints="NO" id="Chp-AU-RvF">
+                                <rect key="frame" x="0.0" y="361" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="605-Oo-OBD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.94950085880000001" green="0.92982012030000005" blue="0.90454488990000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.017223931349999999" green="0.017223931349999999" blue="0.017223931349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Page 3" id="tYh-jy-fb1">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="Eoe-8B-Mee">
+                                            <connections>
+                                                <segue destination="DpA-sS-B39" kind="show" id="zWA-We-nJk"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="xVG-Ei-MHc">
+                                            <connections>
+                                                <segue destination="F5O-xR-j72" kind="show" id="3Wa-I1-XfQ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="a3S-LY-A1e"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xbi-TU-HGE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2170" y="126"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MQB-sS-i8F">
+            <objects>
+                <viewController id="F5O-xR-j72" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1zD-Rh-iUM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWB-gS-gbc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.94950085880000001" green="0.92982012030000005" blue="0.90454488990000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.017223931349999999" green="0.017223931349999999" blue="0.017223931349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Page 3" id="uuH-mO-tTM">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="ZFX-bm-bdV">
+                                            <connections>
+                                                <segue destination="BeC-Pt-Rvz" kind="show" id="4YD-i6-THM"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="LIr-Iw-UqY">
+                                            <connections>
+                                                <segue destination="UKd-aX-Chw" kind="show" id="Urx-z4-T0U"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="model-rambut-pria-undercut" translatesAutoresizingMaskIntoConstraints="NO" id="ulk-t3-9SG">
+                                <rect key="frame" x="0.0" y="57" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gaya-rambut-tahun-2000an" translatesAutoresizingMaskIntoConstraints="NO" id="keB-YX-TKY">
+                                <rect key="frame" x="0.0" y="361" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="JMW-PF-oAV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="laM-eL-vQx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2909" y="137"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="t0b-iy-Skk">
+            <objects>
+                <viewController id="UKd-aX-Chw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A9M-QV-YeD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cdk-id-AZN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.94950085880000001" green="0.92982012030000005" blue="0.90454488990000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.017223931349999999" green="0.017223931349999999" blue="0.017223931349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Page 4" id="21W-HY-Q29">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="XkK-cl-yKx">
+                                            <connections>
+                                                <segue destination="F5O-xR-j72" kind="show" id="0tA-L9-BQf"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="2a2-Nt-alc">
+                                            <connections>
+                                                <segue destination="w33-cm-nSy" kind="show" id="Z0x-qe-yvz"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ct_3LhDUAAAgGnI" translatesAutoresizingMaskIntoConstraints="NO" id="pqq-Yg-QoH">
+                                <rect key="frame" x="0.0" y="57" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mens-hair-60s" translatesAutoresizingMaskIntoConstraints="NO" id="qlP-A3-b8z">
+                                <rect key="frame" x="0.0" y="361" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="9kT-5u-oY2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iAd-Mo-3Zz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3618" y="125"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xOU-pm-YmH">
+            <objects>
+                <viewController id="w33-cm-nSy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dEN-nV-IAc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ptf-O3-OjM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.94950085880000001" green="0.92982012030000005" blue="0.90454488990000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.017223931349999999" green="0.017223931349999999" blue="0.017223931349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Page 5" id="TJr-bn-HYP">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="Yop-Vz-3xH">
+                                            <connections>
+                                                <segue destination="UKd-aX-Chw" kind="show" id="ztW-Tn-yim"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="hc5-5O-u2U">
+                                            <connections>
+                                                <segue destination="3d7-ur-9Db" kind="show" id="tld-Wk-6b9"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="26465-1000xauto-model-jenggot-3" translatesAutoresizingMaskIntoConstraints="NO" id="fgM-T9-Yas">
+                                <rect key="frame" x="0.0" y="57" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="26464-1000xauto-model-jenggot-2" translatesAutoresizingMaskIntoConstraints="NO" id="cqI-hy-O7x">
+                                <rect key="frame" x="0.0" y="361" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="33F-fp-0GC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a1Q-WY-X56" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4397" y="115"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vPd-Nn-hSL">
+            <objects>
+                <viewController id="3d7-ur-9Db" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="59G-u5-gmN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHD-8y-4O7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.94950085880000001" green="0.92982012030000005" blue="0.90454488990000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.017223931349999999" green="0.017223931349999999" blue="0.017223931349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Page 4" id="okR-BK-0Em">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="HbY-Df-OXY">
+                                            <connections>
+                                                <segue destination="w33-cm-nSy" kind="show" id="SYc-xS-FJ7"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Home" id="YCu-ty-lUP">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="dhB-qJ-yVg"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="26461-1000xauto-model-jenggot" translatesAutoresizingMaskIntoConstraints="NO" id="tjc-fM-qww">
+                                <rect key="frame" x="0.0" y="57" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="26460-1000xauto-model-jenggot" translatesAutoresizingMaskIntoConstraints="NO" id="dSs-rB-O3o">
+                                <rect key="frame" x="0.0" y="361" width="375" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="HvS-Kf-4hk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lwE-Ny-Hxq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5127" y="112"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="26460-1000xauto-model-jenggot" width="1000" height="779"/>
+        <image name="26461-1000xauto-model-jenggot" width="1000" height="779"/>
+        <image name="26464-1000xauto-model-jenggot-2" width="1000" height="779"/>
+        <image name="26465-1000xauto-model-jenggot-3" width="1000" height="779"/>
+        <image name="Ct_3LhDUAAAgGnI" width="610" height="467"/>
+        <image name="crop" width="620" height="1102"/>
+        <image name="gaya-rambut-tahun-2000an" width="600" height="447"/>
+        <image name="mens-hair-60s" width="564" height="423"/>
+        <image name="model-rambut-pria-fade" width="588" height="408"/>
+        <image name="model-rambut-pria-man-bun" width="588" height="387"/>
+        <image name="model-rambut-pria-pompadour" width="586" height="425"/>
+        <image name="model-rambut-pria-short-back-sides" width="586" height="414"/>
+        <image name="model-rambut-pria-side-part" width="588" height="503"/>
+        <image name="model-rambut-pria-top-knot" width="588" height="393"/>
+        <image name="model-rambut-pria-undercut" width="590" height="384"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="SYc-xS-FJ7"/>
+        <segue reference="ztW-Tn-yim"/>
+        <segue reference="0tA-L9-BQf"/>
+        <segue reference="4YD-i6-THM"/>
+        <segue reference="zWA-We-nJk"/>
+        <segue reference="C1g-0Q-Bnn"/>
+        <segue reference="dhB-qJ-yVg"/>
+    </inferredMetricsTieBreakers>
 </document>
