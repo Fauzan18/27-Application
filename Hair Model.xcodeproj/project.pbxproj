@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582AD9AF1FCD9902007D4ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582AD9AE1FCD9902007D4ABC /* AppDelegate.swift */; };
+		582AD9B11FCD9902007D4ABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582AD9B01FCD9902007D4ABC /* ViewController.swift */; };
+		582AD9B41FCD9902007D4ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582AD9B21FCD9902007D4ABC /* Main.storyboard */; };
+		582AD9B71FCD9902007D4ABC /* Hair_Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 582AD9B51FCD9902007D4ABC /* Hair_Model.xcdatamodeld */; };
+		582AD9B91FCD9902007D4ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582AD9B81FCD9902007D4ABC /* Assets.xcassets */; };
+		582AD9BC1FCD9902007D4ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582AD9BA1FCD9902007D4ABC /* LaunchScreen.storyboard */; };
+		582AD9C71FCD9902007D4ABC /* Hair_ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582AD9C61FCD9902007D4ABC /* Hair_ModelTests.swift */; };
+		582AD9D21FCD9902007D4ABC /* Hair_ModelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582AD9D11FCD9902007D4ABC /* Hair_ModelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		582AD9C31FCD9902007D4ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582AD9A31FCD9902007D4ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 582AD9AA1FCD9902007D4ABC;
+			remoteInfo = "Hair Model";
+		};
+		582AD9CE1FCD9902007D4ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582AD9A31FCD9902007D4ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 582AD9AA1FCD9902007D4ABC;
+			remoteInfo = "Hair Model";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		582AD9AB1FCD9902007D4ABC /* Hair Model.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hair Model.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582AD9AE1FCD9902007D4ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		582AD9B01FCD9902007D4ABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		582AD9B31FCD9902007D4ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		582AD9B61FCD9902007D4ABC /* Hair_Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hair_Model.xcdatamodel; sourceTree = "<group>"; };
+		582AD9B81FCD9902007D4ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		582AD9BB1FCD9902007D4ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		582AD9BD1FCD9902007D4ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582AD9C21FCD9902007D4ABC /* Hair ModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hair ModelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582AD9C61FCD9902007D4ABC /* Hair_ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hair_ModelTests.swift; sourceTree = "<group>"; };
+		582AD9C81FCD9902007D4ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582AD9CD1FCD9902007D4ABC /* Hair ModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hair ModelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582AD9D11FCD9902007D4ABC /* Hair_ModelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hair_ModelUITests.swift; sourceTree = "<group>"; };
+		582AD9D31FCD9902007D4ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		582AD9A81FCD9902007D4ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582AD9BF1FCD9902007D4ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582AD9CA1FCD9902007D4ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582AD9A21FCD9902007D4ABC = {
+			isa = PBXGroup;
+			children = (
+				582AD9AD1FCD9902007D4ABC /* Hair Model */,
+				582AD9C51FCD9902007D4ABC /* Hair ModelTests */,
+				582AD9D01FCD9902007D4ABC /* Hair ModelUITests */,
+				582AD9AC1FCD9902007D4ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		582AD9AC1FCD9902007D4ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				582AD9AB1FCD9902007D4ABC /* Hair Model.app */,
+				582AD9C21FCD9902007D4ABC /* Hair ModelTests.xctest */,
+				582AD9CD1FCD9902007D4ABC /* Hair ModelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		582AD9AD1FCD9902007D4ABC /* Hair Model */ = {
+			isa = PBXGroup;
+			children = (
+				582AD9AE1FCD9902007D4ABC /* AppDelegate.swift */,
+				582AD9B01FCD9902007D4ABC /* ViewController.swift */,
+				582AD9B21FCD9902007D4ABC /* Main.storyboard */,
+				582AD9B81FCD9902007D4ABC /* Assets.xcassets */,
+				582AD9BA1FCD9902007D4ABC /* LaunchScreen.storyboard */,
+				582AD9BD1FCD9902007D4ABC /* Info.plist */,
+				582AD9B51FCD9902007D4ABC /* Hair_Model.xcdatamodeld */,
+			);
+			path = "Hair Model";
+			sourceTree = "<group>";
+		};
+		582AD9C51FCD9902007D4ABC /* Hair ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				582AD9C61FCD9902007D4ABC /* Hair_ModelTests.swift */,
+				582AD9C81FCD9902007D4ABC /* Info.plist */,
+			);
+			path = "Hair ModelTests";
+			sourceTree = "<group>";
+		};
+		582AD9D01FCD9902007D4ABC /* Hair ModelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				582AD9D11FCD9902007D4ABC /* Hair_ModelUITests.swift */,
+				582AD9D31FCD9902007D4ABC /* Info.plist */,
+			);
+			path = "Hair ModelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		582AD9AA1FCD9902007D4ABC /* Hair Model */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582AD9D61FCD9902007D4ABC /* Build configuration list for PBXNativeTarget "Hair Model" */;
+			buildPhases = (
+				582AD9A71FCD9902007D4ABC /* Sources */,
+				582AD9A81FCD9902007D4ABC /* Frameworks */,
+				582AD9A91FCD9902007D4ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hair Model";
+			productName = "Hair Model";
+			productReference = 582AD9AB1FCD9902007D4ABC /* Hair Model.app */;
+			productType = "com.apple.product-type.application";
+		};
+		582AD9C11FCD9902007D4ABC /* Hair ModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582AD9D91FCD9902007D4ABC /* Build configuration list for PBXNativeTarget "Hair ModelTests" */;
+			buildPhases = (
+				582AD9BE1FCD9902007D4ABC /* Sources */,
+				582AD9BF1FCD9902007D4ABC /* Frameworks */,
+				582AD9C01FCD9902007D4ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582AD9C41FCD9902007D4ABC /* PBXTargetDependency */,
+			);
+			name = "Hair ModelTests";
+			productName = "Hair ModelTests";
+			productReference = 582AD9C21FCD9902007D4ABC /* Hair ModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		582AD9CC1FCD9902007D4ABC /* Hair ModelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582AD9DC1FCD9902007D4ABC /* Build configuration list for PBXNativeTarget "Hair ModelUITests" */;
+			buildPhases = (
+				582AD9C91FCD9902007D4ABC /* Sources */,
+				582AD9CA1FCD9902007D4ABC /* Frameworks */,
+				582AD9CB1FCD9902007D4ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582AD9CF1FCD9902007D4ABC /* PBXTargetDependency */,
+			);
+			name = "Hair ModelUITests";
+			productName = "Hair ModelUITests";
+			productReference = 582AD9CD1FCD9902007D4ABC /* Hair ModelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		582AD9A31FCD9902007D4ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = muqorrobin;
+				TargetAttributes = {
+					582AD9AA1FCD9902007D4ABC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					582AD9C11FCD9902007D4ABC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 582AD9AA1FCD9902007D4ABC;
+					};
+					582AD9CC1FCD9902007D4ABC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 582AD9AA1FCD9902007D4ABC;
+					};
+				};
+			};
+			buildConfigurationList = 582AD9A61FCD9902007D4ABC /* Build configuration list for PBXProject "Hair Model" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 582AD9A21FCD9902007D4ABC;
+			productRefGroup = 582AD9AC1FCD9902007D4ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				582AD9AA1FCD9902007D4ABC /* Hair Model */,
+				582AD9C11FCD9902007D4ABC /* Hair ModelTests */,
+				582AD9CC1FCD9902007D4ABC /* Hair ModelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		582AD9A91FCD9902007D4ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582AD9BC1FCD9902007D4ABC /* LaunchScreen.storyboard in Resources */,
+				582AD9B91FCD9902007D4ABC /* Assets.xcassets in Resources */,
+				582AD9B41FCD9902007D4ABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582AD9C01FCD9902007D4ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582AD9CB1FCD9902007D4ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		582AD9A71FCD9902007D4ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582AD9B71FCD9902007D4ABC /* Hair_Model.xcdatamodeld in Sources */,
+				582AD9B11FCD9902007D4ABC /* ViewController.swift in Sources */,
+				582AD9AF1FCD9902007D4ABC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582AD9BE1FCD9902007D4ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582AD9C71FCD9902007D4ABC /* Hair_ModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582AD9C91FCD9902007D4ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582AD9D21FCD9902007D4ABC /* Hair_ModelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		582AD9C41FCD9902007D4ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 582AD9AA1FCD9902007D4ABC /* Hair Model */;
+			targetProxy = 582AD9C31FCD9902007D4ABC /* PBXContainerItemProxy */;
+		};
+		582AD9CF1FCD9902007D4ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 582AD9AA1FCD9902007D4ABC /* Hair Model */;
+			targetProxy = 582AD9CE1FCD9902007D4ABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		582AD9B21FCD9902007D4ABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582AD9B31FCD9902007D4ABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		582AD9BA1FCD9902007D4ABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582AD9BB1FCD9902007D4ABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		582AD9D41FCD9902007D4ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		582AD9D51FCD9902007D4ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		582AD9D71FCD9902007D4ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hair Model/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.ibnu.Hair-Model";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		582AD9D81FCD9902007D4ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hair Model/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.ibnu.Hair-Model";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		582AD9DA1FCD9902007D4ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hair ModelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.ibnu.Hair-ModelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hair Model.app/Hair Model";
+			};
+			name = Debug;
+		};
+		582AD9DB1FCD9902007D4ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hair ModelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.ibnu.Hair-ModelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hair Model.app/Hair Model";
+			};
+			name = Release;
+		};
+		582AD9DD1FCD9902007D4ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hair ModelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.ibnu.Hair-ModelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hair Model";
+			};
+			name = Debug;
+		};
+		582AD9DE1FCD9902007D4ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hair ModelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.ibnu.Hair-ModelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hair Model";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		582AD9A61FCD9902007D4ABC /* Build configuration list for PBXProject "Hair Model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582AD9D41FCD9902007D4ABC /* Debug */,
+				582AD9D51FCD9902007D4ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582AD9D61FCD9902007D4ABC /* Build configuration list for PBXNativeTarget "Hair Model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582AD9D71FCD9902007D4ABC /* Debug */,
+				582AD9D81FCD9902007D4ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582AD9D91FCD9902007D4ABC /* Build configuration list for PBXNativeTarget "Hair ModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582AD9DA1FCD9902007D4ABC /* Debug */,
+				582AD9DB1FCD9902007D4ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582AD9DC1FCD9902007D4ABC /* Build configuration list for PBXNativeTarget "Hair ModelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582AD9DD1FCD9902007D4ABC /* Debug */,
+				582AD9DE1FCD9902007D4ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		582AD9B51FCD9902007D4ABC /* Hair_Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				582AD9B61FCD9902007D4ABC /* Hair_Model.xcdatamodel */,
+			);
+			currentVersion = 582AD9B61FCD9902007D4ABC /* Hair_Model.xcdatamodel */;
+			path = Hair_Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 582AD9A31FCD9902007D4ABC /* Project object */;
+}
